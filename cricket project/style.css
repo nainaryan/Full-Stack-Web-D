@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+#nav{
+    height: 150 px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    gap: 45px ;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
+}
+#nav img{
+    height: 80px;
+}
+#nav h4{
+    text-transform: uppercase;
+}
